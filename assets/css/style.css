@@ -1,10 +1,11 @@
 html {
-    height:100%;
+    height: 100vh;
 }
 
 body {
     background: url("../images/background.jpg") no-repeat left center;
     background-size: cover;
+    height: 100vh;
 }
 
 .message {
@@ -19,8 +20,7 @@ body {
     color: #ffffff;
 }
 
-.button-footer,
-.button-enroll-black {
+.button-store {
     background-color: #baf1af;
     padding: 15px 70px;
     border: 2px solid #000000;
@@ -28,10 +28,10 @@ body {
     color: #000000;
     font-size: 20px;
     font-family: 'Pangolin', cursive;
+    margin: 60px;
 }
 
-.button-footer:hover,
-.button-enroll-black:hover {
+.button-store:hover {
     background-color: #80da6e;
     color: #000000;
   }
@@ -42,8 +42,30 @@ body {
     }
   }
 
-  @media (min-width:570px) and (max-width:1200px) {
+  @media (max-width: 560px) {
     .message {
-      padding: 0 40px;
+      font-size: 40px;
     }
+    .button-store {
+        font-size: 14px;
+        padding: 15px 15px;
+        margin: 20px;
+    }
+  }
+
+  @media (max-width:1200px) {
+    .message {
+      padding: 0 20px;
+    }
+  }
+
+  @media (min-width:400px) and (max-width:560px) {
+    .message {
+        font-size: 60px;
+      }
+      .button-store {
+          font-size: 14px;
+          padding: 15px 15px;
+          margin: 20px;
+      }
   }
