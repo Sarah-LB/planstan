@@ -1,0 +1,49 @@
+html {
+    height:100%;
+}
+
+body {
+    background: url("../images/background.jpg") no-repeat left center;
+    background-size: cover;
+}
+
+.message {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 72px;
+    color: #ffffff;
+}
+
+.logo {
+    font-family: 'Pangolin', cursive;
+    font-size: 42px;
+    color: #ffffff;
+}
+
+.button-footer,
+.button-enroll-black {
+    background-color: #baf1af;
+    padding: 15px 70px;
+    border: 2px solid #000000;
+    border-radius: 25px 25px 25px 25px;
+    color: #000000;
+    font-size: 20px;
+    font-family: 'Pangolin', cursive;
+}
+
+.button-footer:hover,
+.button-enroll-black:hover {
+    background-color: #80da6e;
+    color: #000000;
+  }
+
+  @media (max-width: 1200px) {
+    .logo {
+      text-align: center;
+    }
+  }
+
+  @media (min-width:570px) and (max-width:1200px) {
+    .message {
+      padding: 0 40px;
+    }
+  }
