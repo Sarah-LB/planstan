@@ -18,7 +18,9 @@
 
 ##  Testing and Known Bugs
 
--   [W3C Markup Validator](https://validator.w3.org/#validate_by_input)
+-   [W3C Markup Validator](https://validator.w3.org/#validate_by_input) - [Reults]()
+-   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results]()
+-   [HTML formatter](https://webformatter.com/html)
 
 
 
